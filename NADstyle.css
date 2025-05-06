@@ -7,7 +7,6 @@ body {font-family: sans-serif;
 	/*Header */
 	background-color: rgba(255,255,255,1.00);
 	overflow: auto;
-	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -40,7 +39,6 @@ header nav a {
 }
 #content #mainContent h3 {
 	/*Captions ot Taglines */
-	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
@@ -54,7 +52,6 @@ header nav a {
 #content #mainContent p {
 	/* All paragraphs under maincontent */
 	color: rgba(146,146,146,1.00);
-	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	text-align: justify;
