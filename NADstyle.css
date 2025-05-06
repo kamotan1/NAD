@@ -41,10 +41,11 @@ header nav a {
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
 }
-#content #mainContent #bannerImage {
+#bannerImage {
 	/*Container for main banner image */
+	margin: auto;
 	width: 100%;
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(255,255,255,1.00);
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
@@ -126,9 +127,11 @@ nav ul li a {
 	/*element to be displayed only in mobile view and tabet view */
 	display: none;
 }
-#mainContent #bannerImage img {
+#bannerImage img {
 	/* Actual banner image */
-	width: 100%;
+	width: 100%;	
+	margin: auto;
+
 }
 
 #mainwrapper header nav a {
