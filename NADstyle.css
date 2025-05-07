@@ -166,6 +166,11 @@ span {
   background-color: green;
   border-radius: 100vh;
   color: #fff;
+display: inline-block;
+}
+.h3 {
+      border-bottom: 1px solid #000;
+      display: inline-block;
 }
 
 
