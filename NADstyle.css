@@ -201,10 +201,7 @@ article.narabi #content {
 @media screen and (max-width:480px) {
 #bannerImage img {
 	/* Actual banner image */
-	width: 110%; 
-	margin: auto; 
-	display: block;
-
+	width: 100%; 
 }
 #mainwrapper header #logo {
 	width: 96%;
