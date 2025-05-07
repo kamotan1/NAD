@@ -225,6 +225,9 @@ li{
 article.narabi #content {
 	width: 46%;
 }
+#mainwrapper {
+width: 100%;
+}
 #mainwrapper header {
 	/* Header */
 	width: 100%;
