@@ -141,10 +141,10 @@ nav ul li a {
 	color: rgba(146,146,146,1.00);
 	text-decoration: none;
 }
-.btn { background-color: rgba(177,177,177,1.00); 
+#map { background-color: rgba(177,177,177,1.00); 
 	text-align: center;
 	color: rgba(244,244,244,1.00); 
-	padding: 1.5em;
+	padding: 3em;
 }
 p { padding-bottom: 0.75em;
 }
