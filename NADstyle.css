@@ -159,7 +159,14 @@ td, th {
 span {
 	display: inline-block;
 }
-
+.kakomi-kadomaru {
+  width: 115%;
+  height: 115%;
+  line-height: 115%;
+  background-color: green;
+  border-radius: 85vh;
+  color: #fff;
+}
 
 
 /* Tablet view */
