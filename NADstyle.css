@@ -43,7 +43,6 @@ header nav a {
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
 	border-bottom: 1px solid #000;
-	margin-top: 1em;
 }
 #bannerImage {
 	/*Container for main banner image */
@@ -162,13 +161,11 @@ span {
 	display: inline-block;
 }
 .kakomi-kadomaru {
-  width: 300px;
-  height: 115px;
-  line-height: 115%;
+  width: 75px;
+  height: 50px;
   background-color: green;
-  border-radius: 100vh;
+  border-radius: 75vh;
   color: #fff;
-display: inline-block;
 }
 
 
@@ -243,7 +240,6 @@ article.narabi #content {
 	/* Title under maincontent, if any */
 	font-size: 14px;
 	border-bottom: 1px solid #000;
-	margin-top: 1em;
 }
 #content article.narabi {
 	/* Each foter article */
