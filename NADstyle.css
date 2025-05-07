@@ -43,7 +43,7 @@ header nav a {
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
 	border-bottom: 1px solid #000;
-	margin-top: 100%;
+	margin-top: 1em;
 }
 #bannerImage {
 	/*Container for main banner image */
@@ -243,7 +243,7 @@ article.narabi #content {
 	/* Title under maincontent, if any */
 	font-size: 14px;
 	border-bottom: 1px solid #000;
-	margin-top: 100%;
+	margin-top: 1em;
 }
 #content article.narabi {
 	/* Each foter article */
