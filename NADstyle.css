@@ -130,7 +130,7 @@ nav ul li a {
 }
 #bannerImage img {
 	/* Actual banner image */
-	width: 120%;	
+	width: 80%;	
 	margin: auto;
 
 }
@@ -158,6 +158,12 @@ td, th {
 
 /* Tablet view */
 @media screen and (max-width:769px) {
+#bannerImage img {
+	/* Actual banner image */
+	width: 80%;	
+	margin: auto;
+
+}
 .notOnDesktop {
 	/* Search box shown only in mobile view and Tablet view */
 	display: block;
@@ -192,6 +198,11 @@ article.narabi #content {
 
 /* Mobile view */
 @media screen and (max-width:480px) {
+#bannerImage img {
+	/* Actual banner image */
+	width: 110%; 
+	margin: auto; 
+}
 #mainwrapper header #logo {
 	width: 96%;
 	margin-left: 2%;
