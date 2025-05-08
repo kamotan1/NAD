@@ -121,7 +121,8 @@ article.narabi h3 {
 }
 #footer {
 	background-color: rgba(241,241,241,1.00);
-	width: 100%;
+	width: 100%; 
+	padding: 10%;
 }
 .narabi {
 	width: 71%;
@@ -138,7 +139,6 @@ p { padding-bottom: 0.75em;
 }
 table {
 	font-size: 0.85em; 
-	width: 75%; 
 	margin: auto;
 }
 td, th {
