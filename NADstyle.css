@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 body {font-family: sans-serif; 
 }
 
@@ -213,11 +211,11 @@ article.narabi #content {
 	left: 0px; bottom: -100px; transform: rotate(25deg) 
 }
 #illust3{
-	right: 0px; top: -85px; transform: rotate(5deg)
+	right: -45px; top: -85px; transform: rotate(5deg)
 }
 #illust4{
-	width: 40%;
-	right: 0px; bottom: -100px;
+	width: 60%;
+	right: 0px; bottom: -300px;
 }
 #artday {
 	width: 80%;
