@@ -204,15 +204,14 @@ article.narabi #content {
 	width: 45%;
 }
 #illust1{
+	width: 60%;
 	left: 0px; top: -100px; transform: rotate(10deg) 
 }
 #illust2{
-	width: 30%;
 	left: 0px; bottom: -100px; transform: rotate(25deg) 
 }
 #illust3{
-	width: 35%;
-	right: 0px; top: -85px; transform: rotate(5deg)
+	right: -30px; top: -85px; transform: rotate(5deg)
 }
 #illust4{
 	right: 0px; bottom: -100px;
