@@ -38,6 +38,7 @@ header {
 	font-weight: 900; 
 	color: rgba(134,113,97,1.00); 
 	text-align: center; 
+	margin: 0 auto 0; 
 }
 #nenn {
 	padding: 0px 20px; 
@@ -221,7 +222,7 @@ article.narabi #content {
 #artday {
 	width: 80%;
 	text-align: center; 
-	margin: 0 0 85px; 
+	margin: 0 auto 85px; 
 }
 
 #mainwrapper {
