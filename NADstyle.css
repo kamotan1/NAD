@@ -128,10 +128,11 @@ article.narabi h3 {
 	padding-left: 2%;
 	padding-right: 2%;
 }
-#map { background-color: rgba(177,177,177,1.00); 
+#map {
+	background-color: rgba(177,177,177,1.00); 
 	text-align: center;
 	color: rgba(244,244,244,1.00); 
-	padding: 3em;
+	padding: 5em 0 ;
 }
 p { padding-bottom: 0.75em;
 }
