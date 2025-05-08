@@ -208,15 +208,18 @@ article.narabi #content {
 	left: 0px; top: -100px; transform: rotate(10deg) 
 }
 #illust2{
+	width: 55%;
 	left: 0px; bottom: -100px; transform: rotate(25deg) 
 }
 #illust3{
-	right: -30px; top: -85px; transform: rotate(5deg)
+	right: 0px; top: -85px; transform: rotate(5deg)
 }
 #illust4{
+	width: 40%;
 	right: 0px; bottom: -100px;
 }
 #artday {
+	width: 80%; 
 	margin: 0 0 85px; 
 }
 
