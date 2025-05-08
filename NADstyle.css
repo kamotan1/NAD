@@ -2,7 +2,6 @@
 
 body {
 	font-family: sans-serif; 
-	line-height: 2; 
 }
 
 header {
@@ -71,6 +70,7 @@ h3 {
 
 
 #content p {
+	line-height: 2; 
 	font-style: normal;
 	font-weight: 600;
 	text-align: justify;
