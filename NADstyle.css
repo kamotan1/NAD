@@ -37,8 +37,34 @@ h3 {
 }
 #main {
 	width: 100%;
-
 }
+.illust{
+	width: 25%;
+	position: absolute; 
+}
+#illust1{
+	left: -5px; top: -50px; transform: rotate(-20deg) 
+}
+#illust2{
+	left: 0px; bottom: 0px; transform: rotate(25deg) 
+}
+#illust3{
+	right: 0px; top: -75px; transform: rotate(10deg)
+}
+#illust4{
+	right: 5px; bottom: 0px;
+}
+#nenn {
+	padding: 0px 20px; 
+	background-color: rgba(214,174,142,1.00); 
+	border-radius: 30vh; 
+	color: #fff; 
+	font-size: 0.6em; 
+}
+.soro{
+	vertical-align: middle; 
+}
+
 #content #mainContent p {
 	/* All paragraphs under maincontent */
 	color: rgba(146,146,146,1.00);
@@ -127,32 +153,6 @@ span {
 	color: #fff;
 	font-size: 0.75em; 
 	vertical-align: middle; 
-}
-#nenn {
-	padding: 0px 20px; 
-	background-color: rgba(214,174,142,1.00); 
-	border-radius: 30vh; 
-	color: #fff; 
-	font-size: 0.6em; 
-}
-.soro{
-	vertical-align: middle; 
-}
-.illust{
-	width: 25%;
-	position: absolute; 
-}
-#illust1{
-	left: -2px; top: 110px; transform: rotate(-20deg) 
-}
-#illust2{
-	left: 20px; bottom: 75px; transform: rotate(25deg) 
-}
-#illust3{
-	right: 20px; top: -25px; transform: rotate(10deg)
-}
-#illust4{
-	right: 10px; bottom: 120px;
 }
 li{
 	font-weight: normal;
