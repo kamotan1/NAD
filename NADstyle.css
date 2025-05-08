@@ -4,39 +4,26 @@ body {font-family: sans-serif;
 }
 
 header {
-	background-color: rgba(255,255,255,1.00);
 	overflow: auto;
 	font-style: normal;
 	font-weight: 400;
 }
-#artday {
-	width: 95%;
-	font-size: 58px; 
-	font-weight: 900; 
-	color: rgba(134,113,97,1.00); 
-	text-align: center; 
-}
-#content #mainContent h1, #content #mainContent h2 {
-	/* Styling for main headings */
-	color: rgba(146,146,146,1.00);
-}
 h1 {
-	font-size: 46px; 
+	font-size: 38px; 
 }
 h3 {
-	/*Captions ot Taglines */
-	font-weight: 200;
-	color: rgba(146,146,146,1.00);
+	font-weight: 500;
+	color: rgba(51,51,51,1.00);
 	border-bottom: 1px solid #000;
 	padding: 1em 0em 0em; 
 }
 #top {
 	position: relative ; 
 	margin: 120px 0px 0px;
-	width: 100%;
+	width: 96%;
 }
 #banner {
-	width: 100%;
+	width: 96%;
 }
 .illust{
 	width: 25%;
@@ -64,6 +51,14 @@ h3 {
 .soro{
 	vertical-align: middle; 
 }
+#artday {
+	width: 96%;
+	font-size: 58px; 
+	font-weight: 900; 
+	color: rgba(134,113,97,1.00); 
+	text-align: center; 
+}
+
 
 #content #mainContent p {
 	/* All paragraphs under maincontent */
