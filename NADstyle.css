@@ -2,7 +2,7 @@
 
 body {
 	font-family: sans-serif; 
-	line-height: 1.5; 
+	line-height: 2; 
 }
 
 header {
@@ -70,11 +70,9 @@ h3 {
 }
 
 
-#content #mainContent p {
-	/* All paragraphs under maincontent */
-	color: rgba(146,146,146,1.00);
+#content p {
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 600;
 	text-align: justify;
 }
 #content #mainContent #authorInfo {
