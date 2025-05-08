@@ -8,7 +8,7 @@ header {
 }
 #topbanner {
 	position: relative ; 
-	margin: 100px auto 0 ;
+	margin: 10% auto 0 ;
 	width: 96%;
 }
 #banner {
@@ -206,6 +206,9 @@ article.narabi #content {
 
 /* Mobile view */
 @media screen and (max-width: 600px) {
+#topbanner {
+	margin: 30% auto 0 ;
+}
 .illust{
 	width: 45%;
 }
@@ -228,7 +231,7 @@ article.narabi #content {
 #artday {
 	width: 80%;
 	text-align: center; 
-	margin: 0 auto 85px; 
+	margin: 0 auto 100px; 
 }
 
 #mainwrapper {
