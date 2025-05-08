@@ -8,11 +8,11 @@ header {
 }
 #topbanner {
 	position: relative ; 
-	margin: 120px 0px 0px;
+	margin: 100px auto 0 ;
 	width: 96%;
 }
 #banner {
-	width: 96%;
+	width: 100%;
 }
 .illust{
 	width: 25%;
