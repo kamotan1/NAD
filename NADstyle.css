@@ -52,10 +52,13 @@ header {
 .soro{
 	vertical-align: middle; 
 }
-
-
 h1 {
 	font-size: 38px; 
+	color: rgba(134,113,97,1.00); 
+}
+h2 {
+	color: rgba(134,113,97,1.00); 
+
 }
 h3 {
 	font-weight: 500;
