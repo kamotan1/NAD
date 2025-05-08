@@ -15,19 +15,22 @@ header {
 	width: 100%;
 }
 .illust{
-	width: 25%;
 	position: absolute; 
 }
 #illust1{
+	width: 35%;
 	left: -5px; top: -50px; transform: rotate(-20deg) 
 }
 #illust2{
+	width: 22%;
 	left: 0px; bottom: 0px; transform: rotate(25deg) 
 }
 #illust3{
+	width: 25%;
 	right: 0px; top: -75px; transform: rotate(10deg)
 }
 #illust4{
+	width: 30%;
 	right: 5px; bottom: 0px;
 }
 #artday {
