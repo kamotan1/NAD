@@ -201,21 +201,21 @@ article.narabi #content {
 /* Mobile view */
 @media screen and (max-width: 600px) {
 .illust{
-	width: 50%;
+	width: 45%;
 }
 #illust1{
-	left: -5px; top: -50px; transform: rotate(10deg) 
+	left: 0px; top: -100px; transform: rotate(10deg) 
 }
 #illust2{
-	width: 45%;
-	left: 0px; bottom: 0px; transform: rotate(25deg) 
+	width: 30%;
+	left: 0px; bottom: -100px; transform: rotate(25deg) 
 }
 #illust3{
 	width: 35%;
-	right: 5px; top: -75px; transform: rotate(5deg)
+	right: 0px; top: -85px; transform: rotate(5deg)
 }
 #illust4{
-	right: 0px; bottom: 0px;
+	right: 0px; bottom: -100px;
 }
 #artday {
 	width: auto; 
