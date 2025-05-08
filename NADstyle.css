@@ -106,10 +106,6 @@ article.narabi h3 {
 	padding-left: 2%;
 	padding-right: 2%;
 }
-.notOnDesktop {
-	/*element to be displayed only in mobile view and tabet view */
-	display: none;
-}
 #map { background-color: rgba(177,177,177,1.00); 
 	text-align: center;
 	color: rgba(244,244,244,1.00); 
@@ -181,18 +177,7 @@ li{
 	margin: auto;	
 	display: block;
 }
-.notOnDesktop {
-	/* Search box shown only in mobile view and Tablet view */
-	display: block;
-	text-align: right;
-	padding-right: 8px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	width: 96%;
-}
-#content .notOnDesktop input {
-	height: 28px;
-}
+
 #mainContent {
 	/* Container for the blog post */
 	padding-top: 0px;
@@ -243,17 +228,6 @@ width: 100%;
 #mainwrapper header #logo {
 	width: 96%;
 	margin-left: 2%;
-}
-#content .notOnDesktop {
-	/* Search box shown only in mobile and tablet view */
-	width: 100%;
-	text-align: center;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-#content .notOnDesktop input {
-	width: 90%;
-	text-align: center;
 }
 h3 {
 	/* Title under maincontent, if any */
