@@ -169,7 +169,6 @@ li{
 	margin: auto;	
 	display: block;
 }
-
 #mainContent {
 	/* Container for the blog post */
 	padding-top: 0px;
@@ -213,6 +212,11 @@ article.narabi #content {
 #bannerImage img {
 	/* Actual banner image */
 	width: 100%; 
+}
+#mainwrapper {
+	width: 90%;
+	overflow: auto;
+	margin-left: 5%;
 }
 #mainwrapper header #logo {
 	width: 96%;
