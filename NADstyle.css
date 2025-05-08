@@ -97,18 +97,6 @@ article.narabi h3 {
 	overflow: auto;
 	margin-left: 10%;
 }
-nav ul li {
-	list-style-type: none;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-nav ul {
-	padding-left: 0%;
-}
-nav ul li a {
-	color: rgba(146,146,146,1.00);
-	text-decoration: none;
-}
 #footer {
 	background-color: rgba(241,241,241,1.00);
 	width: 100%;
@@ -121,12 +109,6 @@ nav ul li a {
 .notOnDesktop {
 	/*element to be displayed only in mobile view and tabet view */
 	display: none;
-}
-
-#mainwrapper header nav a {
-	/* Links in header */
-	color: rgba(146,146,146,1.00);
-	text-decoration: none;
 }
 #map { background-color: rgba(177,177,177,1.00); 
 	text-align: center;
@@ -261,12 +243,6 @@ width: 100%;
 #mainwrapper header #logo {
 	width: 96%;
 	margin-left: 2%;
-}
-#mainwrapper header nav {
-	/*navigation links in header */
-	text-align: center;
-	background-color: rgba(255,255,255,1.00);
-	width: 98%;
 }
 #content .notOnDesktop {
 	/* Search box shown only in mobile and tablet view */
