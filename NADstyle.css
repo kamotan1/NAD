@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 body {font-family: sans-serif; 
 }
 
@@ -156,7 +158,7 @@ li{
 
 
 /* Tablet view */
-@media screen and (max-width:769px) {
+@media screen and (max-width: 834px) {
 
 #mainContent {
 	/* Container for the blog post */
@@ -197,11 +199,33 @@ article.narabi #content {
 }
 
 /* Mobile view */
-@media screen and (max-width:480px) {
+@media screen and (max-width: 600px) {
+.illust{
+	width: 50%;
+}
+#illust1{
+	left: -5px; top: -50px; transform: rotate(10deg) 
+}
+#illust2{
+	width: 45%;
+	left: 0px; bottom: 0px; transform: rotate(25deg) 
+}
+#illust3{
+	width: 35%;
+	right: 5px; top: -75px; transform: rotate(5deg)
+}
+#illust4{
+	right: 0px; bottom: 0px;
+}
+#artday {
+	width: auto; 
+	text-align: center; 
+}
+
 #mainwrapper {
-	width: 90%;
+	width: 92%;
 	overflow: auto;
-	margin-left: 5%;
+	margin-left: 4%;
 }
 #mainwrapper header #logo {
 	width: 96%;
@@ -215,27 +239,5 @@ h3 {
 #content article.narabi {
 	/* Each foter article */
 	width: 96%;
-}
-#artday {
-	width: auto; 
-	text-align: center; 
-}
-.illust{
-	width: 50%;
-}
-#illust1{
-	left: -5px; top: 0px; transform: rotate(10deg) 
-}
-#illust2{
-	width: 125px;
-	left: 15px; bottom: 110px; transform: rotate(25deg) 
-}
-#illust3{
-	width: 150px;
-	right: 5px; top: -5px; transform: rotate(5deg)
-}
-#illust4{
-	width: 180px;
-	right: 10px; bottom: 30px;
 }
 }
