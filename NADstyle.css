@@ -30,10 +30,13 @@ h3 {
 	border-bottom: 1px solid #000;
 	padding: 1em 0em 0em; 
 }
-#bannerImage {
-	/*Container for main banner image */
+#top {
 	margin: 120px 0px 0px;
 	width: 100%;
+}
+#main {
+	width: 100%;
+
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
