@@ -180,6 +180,8 @@ article.narabi #content {
 .illust{
 	width: 35%;
 }
+
+/*
 #illust1{
 	left: -5px; top: 0px; transform: rotate(10deg) 
 }
@@ -195,6 +197,8 @@ article.narabi #content {
 	width: 220px;
 	right: 10px; bottom: 225px;
 }
+*/
+
 }
 
 /* Mobile view */
