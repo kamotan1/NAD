@@ -219,7 +219,8 @@ article.narabi #content {
 	right: 0px; bottom: -100px;
 }
 #artday {
-	width: 80%; 
+	width: 80%;
+	text-align: center; 
 	margin: 0 0 85px; 
 }
 
