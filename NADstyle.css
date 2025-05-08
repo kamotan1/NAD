@@ -209,14 +209,13 @@ article.narabi #content {
 	left: 0px; top: -100px; transform: rotate(10deg) 
 }
 #illust2{
-	width: 55%;
 	left: 0px; bottom: -100px; transform: rotate(25deg) 
 }
 #illust3{
 	right: -45px; top: -85px; transform: rotate(5deg)
 }
 #illust4{
-	width: 60%;
+	width: 55%;
 	right: 0px; bottom: -300px;
 }
 #artday {
