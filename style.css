@@ -2,7 +2,7 @@
 
 body {
 	font-family: sans-serif; 
-	font-size: 10px;
+	font-size: 14px;
 }
 header {
 	width: 100%;
@@ -72,7 +72,7 @@ h3 {
 	padding: 3.5em 0em 0em; 
 }
 #content p {
-	line-height: 1.8; 
+	line-height: 1.45;
 	font-style: normal;
 	font-weight: 400;
 	text-align: justify;
@@ -81,23 +81,8 @@ img{
 	width: 100%;
 	margin: 0 auto;
 }
-			.yousu{
+.yousu{
 				width: 75%;
-			}
-#content #mainContent #authorInfo {
-	background-color: rgba(208,207,207,1.00);
-}
-#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
-	color: rgba(255,255,255,1.00);
-	padding-left: 2%;
-	padding-top: 11px;
-}
-#content #mainContent #authorInfo p {
-	color: rgba(255,255,255,1.00);
-	padding-left: 2%;
-	padding-top: 0px;
-	padding-bottom: 11px;
-	padding-right: 2%;
 }
 article.narabi {
 	width: 46%;
