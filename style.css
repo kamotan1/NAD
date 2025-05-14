@@ -58,12 +58,10 @@ h1 {
 	color: rgba(134,113,97,1.00); 
 }
 h2 {
-	font-size: 1em; 
 	font-weight: 700; 
 	padding: 0.6em 1.2em; 
 	color: rgba(51,51,51,1.00);
 	background-color: rgba(134,113,97,0.15);
-	letter-spacing: 0.12em;
 }
 h3 {
 	font-weight: 700;
@@ -148,7 +146,7 @@ span {
 	background-color: rgba(214,174,142,1.00);
 	border-radius: 30vh;
 	color: #fff;
-	font-size: 0.75em; 
+	font-size: 0.8em; 
 	font-weight: 700;
 	vertical-align: middle; 
 }
