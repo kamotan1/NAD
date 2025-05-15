@@ -163,7 +163,9 @@ li{
 
 /* Tablet view */
 @media screen and (max-width: 834px) {
-
+#content p {
+	font-size: 18px;
+}
 #mainContent {
 	/* Container for the blog post */
 	padding-top: 0px;
