@@ -65,27 +65,38 @@ h2 {
 	font-size: 14px;
 }
 h3 {
+	font-size: 16px;
 	font-weight: 700;
 	color: rgba(51,51,51,1.00);
 	border-bottom: 1px solid #000;
 	padding: 3.5em 0em 0em; 
 }
+h4{
+	font-size: 17px;
+}
 h5{
-	font-size: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	color: rgba(51,51,51,1.00);
 }
 #content p {
 	line-height: 1.5;
 	font-style: normal;
 	font-weight: 400;
 	text-align: justify;
-	font-size: 16px;
+	font-size: 17px;
+}
+li{
+	font-weight: normal;
+	padding: 10px 0 0; 
+	font-size: 17px;
 }
 img{
 	width: 100%;
 	margin: 0 auto;
 }
 .yousu{
-				width: 75%;
+	width: 75%;
 }
 article.narabi {
 	width: 46%;
@@ -134,8 +145,6 @@ article.narabi h3 {
 	color: rgba(244,244,244,1.00); 
 	padding: 5em 0 ;
 }
-p { padding-bottom: 0.75em;
-}
 table {
 	font-size: 0.85em; 
 	margin: auto;
@@ -155,17 +164,11 @@ span {
 	font-weight: 700;
 	vertical-align: middle; 
 }
-li{
-	font-weight: normal;
-	padding: 10px 0 0; 
-}
+
 
 
 /* Tablet view */
 @media screen and (max-width: 834px) {
-#content p {
-	font-size: 18px;
-}
 #mainContent {
 	/* Container for the blog post */
 	padding-top: 0px;
