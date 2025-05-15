@@ -231,7 +231,9 @@ article.narabi #content {
 	text-align: center; 
 	margin: 0 auto 100px; 
 }
-
+#banner {
+	margin: 45px 0 0;
+}
 #mainwrapper {
 	width: 92%;
 	overflow: auto;
