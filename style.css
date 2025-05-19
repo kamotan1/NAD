@@ -80,7 +80,6 @@ h5{
 	font-size: 15px;
 	font-weight: 700;
 	color: rgba(51,51,51,1.00);
-	padding: 50px 0 0;
 }
 p {
 	font-style: normal;
@@ -99,18 +98,6 @@ img{
 }
 .yousu{
 	text-align: center;
-	clear: left;
-}
-article.narabi {
-	width: 46%;
-	float: left;
-	padding-left: 2%;
-	padding-right: 2%;
-	text-align: justify;
-	font-family: source-sans-pro, sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	color: #2b2b2b;
 }
 #mainContent {
 	/* Container for the blog post in individal blog view */
@@ -130,11 +117,6 @@ article.narabi {
 	background-color: rgba(241,241,241,1.00);
 	width: 80%; 
 	padding: 10%;
-}
-.narabi {
-	width: 71%;
-	padding-left: 2%;
-	padding-right: 2%;
 }
 #map {
 	background-color: rgba(177,177,177,1.00); 
@@ -171,19 +153,10 @@ span {
 	float: none;
 	width: 96%;
 }
-.narabi {
-	width: 96%;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-#content article.narabi {
-	width: 96%;
-}
 #mainwrapper header {
 	/* Header */
 	width: 100%;
 }
-
 /*
 #illust1{
 	left: -5px; top: 0px; transform: rotate(10deg) 
@@ -201,7 +174,6 @@ span {
 	right: 10px; bottom: 225px;
 }
 */
-
 }
 
 /* Mobile view */
