@@ -175,8 +175,8 @@ span {
 	padding-left: 2%;
 	padding-right: 2%;
 }
-article.narabi #content {
-	width: 46%;
+#content article.narabi {
+	width: 96%;
 }
 #mainwrapper header {
 	/* Header */
@@ -243,8 +243,5 @@ article.narabi #content {
 #mainwrapper header #logo {
 	width: 96%;
 	margin-left: 2%;
-}
-#content article.narabi {
-	width: 96%;
 }
 }
