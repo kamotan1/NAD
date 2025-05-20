@@ -99,6 +99,9 @@ img{
 .yousu{
 	text-align: center;
 }
+.yousu img{
+	width: 80%;
+}
 #mainContent {
 	/* Container for the blog post in individal blog view */
 	padding-left: 2%;
