@@ -160,6 +160,9 @@ span {
 	/* Header */
 	width: 100%;
 }
+.yousu img{
+	width: 85%;
+}
 /*
 #illust1{
 	left: -5px; top: 0px; transform: rotate(10deg) 
