@@ -152,36 +152,19 @@ a:link {
 
 /* Tablet view */
 @media screen and (max-width: 834px) {
+#mainwrapper header {
+	/* Header */
+	width: 100%;
+}
 #mainContent {
 	/* Container for the blog post */
 	padding-top: 0px;
 	float: none;
 	width: 96%;
 }
-#mainwrapper header {
-	/* Header */
-	width: 100%;
-}
 .yousu img{
 	width: 85%;
 }
-/*
-#illust1{
-	left: -5px; top: 0px; transform: rotate(10deg) 
-}
-#illust2{
-	width: 125px;
-	left: 15px; bottom: 300px; transform: rotate(25deg) 
-}
-#illust3{
-	width: 150px;
-	right: 5px; top: -5px; transform: rotate(5deg)
-}
-#illust4{
-	width: 220px;
-	right: 10px; bottom: 225px;
-}
-*/
 }
 
 /* Mobile view */
