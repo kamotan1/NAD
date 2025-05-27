@@ -47,12 +47,14 @@ header {
 }
 #nenn {
 	display: inline-block;
+	color: #fff; 
 	padding: 0 20px; 
 	background-color: rgba(214,174,142,1.00); 
 	border-radius: 30vh; 
 	color: #fff; 
 	font-size: 0.6em; 
 	line-height: 1.45; 
+	height: 1.45;
 }
 .soro{
 	vertical-align: middle; 
