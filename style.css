@@ -90,11 +90,10 @@ p {
 	font-size: 17px;
 }
 .atten{
-	font-weight: 700;
 	font-size: 15px;
-	line-height: 18px;
+	line-height: 16px;
 	color: orangered;
-	boder: solid 1px orangered;
+	border: solid 1px;
 	padding: 3px;
 }
 li{
