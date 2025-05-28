@@ -93,7 +93,9 @@ p {
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 18px;
+	color: orangered;
 	boder: solid 1px orangered;
+	padding: 3px;
 }
 li{
 	padding: 0 0 10px; 
