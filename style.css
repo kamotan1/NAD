@@ -109,6 +109,22 @@ img{
 .yousu img{
 	width: 46%;
 }
+
+details{
+				width: 85%;
+				margin: auto;
+}
+.syoukai img{
+	width: 50%;
+	padding: 10px 0;
+}
+.syoukai3{
+	text-align: center;
+}
+.syoukai3 img{
+	width: 32%;
+}
+
 #mainContent {
 	/* Container for the blog post in individal blog view */
 	padding-left: 2%;
@@ -172,6 +188,20 @@ a:link {
 .yousu img {
 	width: 82%;
 }
+
+.syoukai img{
+	width: 86%;
+	padding: 10px 7%;
+}
+.syoukai3{
+	display: flex;
+	width: 100%;
+	overflow-x: scroll;
+}
+.syoukai3 img{
+	width: 75%;
+	padding: 3px;
+}
 }
 
 /* Mobile view */
@@ -217,5 +247,8 @@ a:link {
 }
 .yousu img {
 	width: 92%;
+}
+details{
+	width: 100%;
 }
 }
