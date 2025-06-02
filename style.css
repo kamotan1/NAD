@@ -3,19 +3,26 @@
 body {
 	font-family: sans-serif; 
 	font-size: 17px;
+	background-color: #f1f5e6;
+	background-color: #f5f7ed;
+	background-image: url(images/illust_yama.png);
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 header {
-	width: 100%;
+	width: 70%;
+	padding: 0 15%;
 }
 #topbanner {
 	position: relative ; 
-	margin: 10% auto 0 ;
-	width: 96%;
+	margin: 30% auto 0 ;
+	width: 66%;
 }
 #banner {
-	width: 100%;
-	margin: 60px 0;
+	padding: 10% 0
 }
+
 .illust{
 	position: absolute; 
 }
@@ -23,49 +30,90 @@ header {
 	width: 35%;
 	left: -5px; top: -80px; transform: rotate(10deg) 
 }
+
 #illust2{
-	width: 22%;
-	left: 0px; bottom: 0px; transform: rotate(38deg) 
+	width: 28%;
+	left: -30%; bottom: -12%; transform: rotate(45deg) 
 }
+
 #illust3{
 	width: 25%;
 	right: 0px; top: -20%; transform: rotate(10deg)
 }
 #illust4{
-	width: 30%;
-	right: 5px; bottom: 5%;
+width: 42%;
+right: -51%;
+bottom: 80%;
 }
+#illust5{
+width: 35%;
+left: -50%;
+bottom: 0%;
+}
+#illust6{
+	width: 43%;
+	left: -56%; bottom: -5%;
+}
+#illust7{
+width: 40%;
+right: -52%;
+bottom: -50%;
+}
+
+
 #artday {
 	position: relative ; 
-	width: 96%;
+	width: 66%;
 	font-size: 58px; 
 	line-height: 1;
 	font-weight: 900; 
 	color: rgba(134,113,97,1.00); 
 	text-align: center; 
-	margin: 0 auto 0; 
+	margin: -18% auto 0; 
+}
+.artday_banner{
+	margin: 0 auto;
+	width: 47%;
+	vertical-align: middle; 
 }
 #nenn {
+	position: relative;
 	display: inline-block;
-	color: #fff; 
+	color: #f5f7ed; 
 	padding: 0 20px; 
-	background-color: rgba(214,174,142,1.00); 
-	border-radius: 30vh; 
-	font-size: 0.6em; 
+	font-size: 0.55em;
+	font-weight: ;
 	line-height: 1.45; 
-	height: 1.45;
+}
+#nenn::before {
+   content: "";
+    display: inline-block;
+    width: 106%;
+    height: 130%;
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+    background-image: url(images/illust_hake.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-position: 50% 50%;
+	z-index: -1;
+	transform: rotate(3deg);
 }
 .soro{
 	vertical-align: middle; 
 }
 h1 {
-	color: rgba(134,113,97,1.00); 
+	color: #6495e1; 
 }
 h2 {
 	font-weight: 700; 
 	padding: 0.6em 1.2em; 
-	color: rgba(51,51,51,1.00);
-	background-color: rgba(134,113,97,0.15);
+	color: #837e5f;
+	background-color: #fff;
 	font-size: 15px;
 }
 h3 {
@@ -111,8 +159,8 @@ img{
 }
 
 details{
-	width: 85%;
-	margin: 5% auto 10%;
+				width: 85%;
+				margin: auto;
 }
 .syoukai img{
 	width: 50%;
@@ -140,7 +188,6 @@ details{
 	margin-left: 10%;
 }
 #footer {
-	background-color: rgba(241,241,241,1.00);
 	width: 80%; 
 	padding: 6% 10%;
 }
@@ -161,7 +208,7 @@ span {
 }
 .kakomi {
 	padding: 2px 8px; 
-	background-color: rgba(214,174,142,1.00);
+	background-color: #82b3ff;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 0.8em; 
@@ -169,9 +216,41 @@ span {
 	vertical-align: middle; 
 }
 a:link {
-  color: #1e90ff
+  color: #82b3ff
 }
-
+.cell1{
+	width: 25%;
+}
+.cell2{
+	width: 75%;
+}
+.thanks {
+	position: relative;
+	display: inline-block;
+	color: #f5f7ed; 
+	padding: 0 10px; 
+	font-weight: 700;
+	font-size: 0.9em;
+	line-height: 1.45; 
+}
+.thanks::before {
+   content: "";
+    display: inline-block;
+    width: 110%;
+    height: 150%;
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+    background-image: url(images/illust_hake.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-position: 50% 50%;
+	z-index: -1;
+	transform: rotate(3deg);
+}
 
 /* Tablet view */
 @media screen and (max-width: 834px) {
@@ -179,12 +258,54 @@ a:link {
 	/* Header */
 	width: 100%;
 }
+header {
+	width: 98%;
+	padding: 0;
+}
+.artday_banner{
+	width: 75%;
+}
+#topbanner{
+	width: 56%;
+	padding: 0 10%;
+	margin: 25% auto 0;
+}
+#artday{
+	width: 56%;
+	margin: -10% auto 0;
+}
+#illust2{
+width: 37%;
+left: -27%;
+bottom: -28%;
+transform: rotate(45deg);
+}
+#illust4{
+width: 45%;
+right: -38%;
+bottom: 56%;
+transform: rotate(7deg);
+}
+#illust5{
+width: 28%;
+left: -10%;
+bottom: -54%;
+}
+#illust7{
+width: 36%;
+right: -13%;
+bottom: -131%;
+}
+#mainwrapper{
+	margin-top: 20%;
+}
 #mainContent {
 	/* Container for the blog post */
 	padding-top: 0px;
 	float: none;
 	width: 96%;
 }
+
 .yousu img {
 	width: 82%;
 }
@@ -202,44 +323,55 @@ a:link {
 	width: 75%;
 	padding: 3px;
 }
+.cell1{
+	text-align: left;
+	padding-left: 13px;
+	display: block;
+	width: 100%;
+}
+.cell2{
+	display: block;
+	width: 100%;
+}
 }
 
 /* Mobile view */
 @media screen and (max-width: 600px) {
 #topbanner {
-	margin: 30% auto 0 ;
 }
 .illust{
 	width: 45%;
 }
-#illust1{
-	width: 50%;
-	left: 0px; top: -55%; transform: rotate(10deg) 
+#artday {
+	margin: -13% auto 0;
 }
 #illust2{
-	width: 40%; 
-	left: 0px; bottom: -110px; transform: rotate(37deg) 
-}
-#illust3{
-	width: 33%; 
-	right: 0px; top: -55%; 
+	width: 45%;
+	left: -26%; 
+	bottom: -50%; 
+	transform: rotate(37deg) 
 }
 #illust4{
-	width: 55%;
-	right: -10%; bottom: -170px; 
+width: 62%;
+right: -41%;
+bottom: 35%;
+transform: rotate(60deg);
 }
-#artday {
-	width: 80%;
-	text-align: center; 
-	margin: 0 auto 100px; 
+#illust5{
+width: 32%;
+left: -12%;
+bottom: -70%;
 }
-#banner {
-	margin: 45px 0 0;
+#illust7{
+	width: 45%;
+	right: -14%;
+	bottom: -175%;
 }
 #mainwrapper {
 	width: 92%;
 	overflow: auto;
 	margin-left: 4%;
+	margin-top: 30%;
 }
 #mainwrapper header #logo {
 	width: 96%;
