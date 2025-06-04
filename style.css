@@ -225,6 +225,18 @@ span {
 	font-weight: 700;
 	vertical-align: middle; 
 }
+.syutten_sign {
+	position: relative;
+	text-decoration-line: underline overline;
+	padding: 2px 8px; 
+	color: #82b3ff;
+	font-size: 0.8em; 
+	font-weight: 700;
+	vertical-align: middle; 
+}
+.syutten_sign::after{
+	content:"";
+}
 a:link {
   color: #6495e1;
 }
