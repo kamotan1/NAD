@@ -238,9 +238,22 @@ span {
 .syutten_sign::after{
 	content:"";
 }
-a:link {
-  color: #6495e1;
+a{
+	position: relative;
+	margin-right: 20%;
 }
+a:link {
+	color: #6495e1;
+}
+/*a::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image: url(images/icon_w.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+}*/
 .cell1{
 	width: 25%;
 }
@@ -379,6 +392,12 @@ width: 62%;
 right: -41%;
 bottom: 35%;
 transform: rotate(60deg);
+}
+#illust4::before{
+	
+}
+#illust4::after{
+	
 }
 #illust5{
 width: 32%;
