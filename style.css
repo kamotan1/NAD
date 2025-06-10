@@ -245,7 +245,7 @@ a{
 a:link {
 	color: #6495e1;
 }
-/*a::after{
+a::after{
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -253,7 +253,7 @@ a:link {
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
-}*/
+}
 .cell1{
 	width: 25%;
 }
