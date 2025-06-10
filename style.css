@@ -240,10 +240,14 @@ span {
 }
 a{
 	position: relative;
-	margin-right: 20%;
+	margin-right: 8px;
+	text-underline-offset: 8px;
 }
 a:link {
 	color: #6495e1;
+}
+a:visited{
+	color: #ac82ff;
 }
 a::after{
 	content: "";
