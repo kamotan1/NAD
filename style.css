@@ -170,8 +170,8 @@ img{
 }
 
 details{
-				width: 85%;
-				margin: auto;
+	width: 85%;
+	margin: auto;
 }
 .syoukai img{
 	width: 50%;
@@ -242,6 +242,7 @@ a{
 	position: relative;
 	margin-right: 8px;
 	text-underline-offset: 5px;
+	font-size: 0.85em; 
 }
 a:link {
 	color: #6495e1;
