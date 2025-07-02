@@ -9,6 +9,8 @@ body {
 	background-position: top;
 	background-size: contain;
 	background-repeat: no-repeat;
+	width: 750px;
+	margin: 200px auto 0;
 }
 header {
 	width: 70%;
@@ -295,6 +297,10 @@ a::after{
 
 /* Tablet view */
 @media screen and (max-width: 834px) {
+body{
+	width: auto;
+	margin: auto;
+}
 #mainwrapper header {
 	/* Header */
 	width: 100%;
