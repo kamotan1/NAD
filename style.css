@@ -9,8 +9,8 @@ body {
 	background-position: top;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 800px;
-	margin: 24% auto 0;
+	width: 86%;
+	margin: 20% auto 0;
 }
 header {
 	width: 70%;
@@ -313,12 +313,12 @@ header {
 	width: 75%;
 }
 #topbanner{
-	width: 56%;
+	width: 50%;
 	padding: 0 10%;
-	margin: 25% auto 0;
+	margin: 18% auto 0;
 }
 #artday{
-	width: 56%;
+	width: 50%;
 	margin: -10% auto 0;
 }
 #illust2{
