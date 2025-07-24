@@ -376,6 +376,9 @@ bottom: -131%;
 	display: block;
 	width: 100%;
 }
+details{
+	margin: 50px auto;
+}
 }
 
 /* Mobile view */
@@ -428,8 +431,5 @@ bottom: -70%;
 }
 .yousu img {
 	width: 92%;
-}
-details{
-	width: 100%;
 }
 }
