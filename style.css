@@ -260,7 +260,7 @@ a::after{
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
-	top: 4px;
+	bottom: 3px;
 }
 .cell1{
 	width: 25%;
