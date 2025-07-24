@@ -129,7 +129,7 @@ h4{
 }
 h5{
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 700;				
 	color: rgba(51,51,51,1.00);
 }
 p {
@@ -169,11 +169,6 @@ img{
 }
 .yousu img{
 	width: 46%;
-}
-
-details{
-	width: 85%;
-	margin: auto;
 }
 .syoukai img{
 	width: 50%;
