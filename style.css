@@ -255,7 +255,8 @@ a::after{
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
-	bottom: 3px;
+	bottom: 2px;
+	right: -18px;
 }
 .cell1{
 	width: 25%;
