@@ -9,16 +9,23 @@
 </head>
 <body>
 
-<h3>郵便番号で住所が自動入力されるフォーム</h3>
-<p>郵便番号で探す</p>
-<div>
-  <input type="text" id="searchBox" placeholder="例:1638001(ﾊｲﾌﾝなし)" onkeyup="inputCheck ()">
-  <button type="button" onclick="searchAddress ()">探す</button>
-</div>
-<div id="check" ></div>
-<p>住所：<input type="text" id="addressForm"></p>
-<p>番地：<input type="text"></p>
-<button type="button" onclick="dummyPost ()">送信</button>
+  <div id="mainwrapper">
+  <h3>チラシ送付フォーム　2026年1月</h3>
+  <p>送り先住所と希望枚数を教えてください。チラシが完成し次第、鴨田より発送します。</p>
+  
+<form action="action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDa2hcdmUvAbyHYh8lQhUh9aw76ZRuPXNpciUb84a_AwxFKw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+  <p>
+    <label for="yubinbangou">郵便番号：</label>
+    <input type="text" name="entry.1653620495" id="yubin" placeholder="例:1638001" onkeyup="inputCheck ()">
+    <button type="button" onclick="searchAddress ()">住所検索</button>
+  </p>
+  <div id="check" ></div>
+  <p>住所：<input type="text" name="entry.607504945" id="jusho"></p>
+  <p>番地：<input type="text" name="entry.835690247" id="banchi"></p>
+  <p>枚数（ざっくり教えてください。適宜調整させていただきます。）：<input type="text" name="entry.1508545114" id="maisuu"></p>
+  <button type="submit" name="submit" value="送信">送信</button>
+  </div>
+</form>
 
 <script>
   async function searchAddress () {
@@ -37,15 +44,17 @@
   function inputCheck() {
     const inputValue = document.getElementById( "searchBox" ).value;
     if (!(inputValue.match(/^[0-9]+$/)) || !(inputValue.length === 7)) {
-      document.getElementById( "check" ).innerHTML = '半角数字7桁で入力してください！';
+      document.getElementById( "check" ).innerHTML = '半角数字7桁で入力してください';
     } else {
       document.getElementById( "check" ).innerHTML = '';
     }
   }
 
+  <!--
   function dummyPost () {
     alert('送信はしないぜ')
   }
+-->
 </script>
 </body>
 </html>
