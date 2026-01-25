@@ -45,7 +45,7 @@ input {
 	position: relative;
 	display: inline-block;
  	color: #fff;
-  	background-color: #a2e7fa;
+  	background-color: #8ec4ed;
 	font-weight: bold;
 	padding: 0.25em 0.5em;
 	text-decoration: none;
@@ -58,6 +58,9 @@ input {
 #check {
 	font-sixe: 16px ;
 }
+input｛
+	width: 100%;
+｝
 
 .day_stick {
   display: inline-block;
