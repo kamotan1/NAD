@@ -12,14 +12,13 @@
 <div id="mainwrapper">
   <h3>チラシ送付フォーム　2026年1月</h3>
   <p>チラシの送り先住所と枚数を教えてください。1/27ごろ発送予定です。</p>
-  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDa2hcdmUvAbyHYh8lQhUh9aw76ZRuPXNpciUb84a_AwxFKw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDa2hcdmUvAbyHYh8lQhUh9aw76ZRuPXNpciUb84a_AwxFKw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
     <p>
       <label for="yubinbangou">郵便番号：</label>
       <input type="text" name="entry.1653620495" id="yubin" placeholder="例:1638001" onkeyup="inputCheck ()" required>
       <button type="button" onclick="searchAddress ()">住所検索</button>
       <spam id="check" ></spam>
-    </p>
-    <p>
       <br>住所：<input type="text" name="entry.607504945" id="jusho" required>
       <br>番地：<input type="text" name="entry.835690247" id="banchi" required>
       <br>枚数<small>（ざっくり教えてください。適宜調整させていただきます。）</small>：
