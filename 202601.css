@@ -41,6 +41,9 @@ p {
 input {	
 	font-size: 17px;
 }
+#jusho｛
+	width: 100%;
+｝
 .form-btn {
 	position: relative;
 	display: inline-block;
@@ -58,9 +61,7 @@ input {
 #check {
 	font-sixe: 16px ;
 }
-#jusho｛
-	width: 100%;
-｝
+
 
 .day_stick {
   display: inline-block;
