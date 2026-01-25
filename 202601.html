@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>チラシ送付フォーム　2026年1月</title>
   <link rel="stylesheet" href="202601.css">
+
+<!-- 送信後 after_form.htmlへ移動 -->
+<script type="text/javascript">
+    let submitted = false;
+</script>
+<!-- 送信後 after_form.htmlへ移動 ここまで -->
+
 </head>
 <body>
 
@@ -67,5 +74,11 @@
   }
 -->
 </script>
+		<iframe
+		name="hidden_iframe"
+		id="hidden_iframe"
+		style="display: none"
+		onload="if(submitted){window.location='https://hokuju.jp/after_form.html';}"></iframe>
+		
 </body>
 </html>
