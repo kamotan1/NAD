@@ -10,22 +10,31 @@
 <body>
 
 <div id="mainwrapper">
-  <h3>チラシ送付フォーム　2026年1月</h3>
+  <h1>チラシ送付フォーム　2026年1月</h1>
   <p>チラシの送り先住所と枚数を教えてください。1/27ごろ発送予定です。</p>
 
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDa2hcdmUvAbyHYh8lQhUh9aw76ZRuPXNpciUb84a_AwxFKw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+  <h3>送り先住所</h3>
     <p>
       <label for="yubinbangou">郵便番号：</label>
       <input type="text" name="entry.1653620495" id="yubin" placeholder="例:1638001" onkeyup="inputCheck ()" required>
+    </p>
+    <p>
       <button type="button" onclick="searchAddress ()">住所検索</button>
       <spam id="check" ></spam>
-      <br>住所：<input type="text" name="entry.607504945" id="jusho" required>
-      <br>番地：<input type="text" name="entry.835690247" id="banchi" required>
-      <br>枚数<small>（ざっくり教えてください。適宜調整させていただきます。）</small>：
-      <br><input type="text" name="entry.1508545114" id="maisuu" required>
     </p>
+    <p>
+      住所：<input type="text" name="entry.607504945" id="jusho" required>
+    </p>
+    <p>
+      番地：<input type="text" name="entry.835690247" id="banchi" required>
+    </p>
+    <h3>チラシ枚数</h3>
+    <p><small>（ざっくり教えてください。適宜調整させていただきます。）</small></p>
+    <p><input type="text" name="entry.1508545114" id="maisuu" required></p>
     <p><button type="submit" name="submit" value="送信">送信</button></p>
-  </form>
+</form>
+
 </div>
 
 <script>
