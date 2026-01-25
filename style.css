@@ -141,6 +141,14 @@ p {
 imput {	
 	font-size: 17px;
 }
+.form-btn {
+	color: #fff;
+  	background-color: #a2e7fa;
+}
+.form-btn:hover {
+	color: #fff;
+  	background-color: #bbeefc;
+}
 
 .day_stick {
   display: inline-block;
@@ -152,7 +160,6 @@ imput {
   font-weight: bold;
   font-size: 0.8em;
 	vertical-align: middle; 
-
 }
 .atten{
 	font-size: 15px;
