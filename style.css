@@ -138,6 +138,10 @@ p {
 	text-align: justify;
 	font-size: 17px;
 }
+imput {	
+	font-size: 17px;
+}
+
 .day_stick {
   display: inline-block;
   padding: 1em 1em;
