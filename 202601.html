@@ -6,37 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>チラシ送付フォーム　2026年1月</title>
   <link rel="stylesheet" href="202601.css">
-
-<!-- 送信後 after_form.htmlへ移動 -->
-<script type="text/javascript">
-    let submitted = false;
-</script>
-<!-- 送信後 after_form.htmlへ移動 ここまで -->
-
 </head>
 <body>
 
 <div id="mainwrapper">
   <h1>チラシ送付フォーム</h1>
   <p>のりくらアートDAY 2026（冬）のチラシの送り先住所と枚数のアンケートです。</p>
-
-<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDa2hcdmUvAbyHYh8lQhUh9aw76ZRuPXNpciUb84a_AwxFKw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-  <h3>送り先住所</h3>
-      <label for="yubinbangou">郵便番号</label>
-      <br><input type="text" name="entry.1653620495" id="yubin" placeholder="例）3901520" onkeyup="inputCheck ()" required>
-      <br><button class="form-btn" type="button" onclick="searchAddress ()">住所検索</button>
-      <spam id="check" ></spam>
-    <br>
-      住所<br><input type="text" name="entry.607504945" id="jusho" size="30" required>
-    <br><small>番地（建物名・部屋番号）も忘れずにお願いします。</small>
-      <br>宛名<br><input type="text" name="entry.1066054184" id="atena" required>
-    <h3>チラシの枚数</h3>
-    <input type="text" name="entry.1508545114" id="maisuu" required> 枚
-    <br>ざっくりで大丈夫です。（目安35枚〜）<br>適宜調整させていただきます。
-    <br><br>入力内容を確認したら、送信ボタンを押してください。
-    <br><button class="form-btn" type="submit" name="submit" value="送信">送 信</button>
-</form>
-
+	<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDa2hcdmUvAbyHYh8lQhUh9aw76ZRuPXNpciUb84a_AwxFKw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+	  <h3>送り先住所</h3>
+	      <label for="yubinbangou">郵便番号</label>
+	      <br><input type="text" name="entry.1653620495" id="yubin" placeholder="例）3901520" onkeyup="inputCheck ()" required>
+	      <br><button class="form-btn" type="button" onclick="searchAddress ()">住所検索</button>
+	      <spam id="check" ></spam>
+	    <br>
+	      住所<br><input type="text" name="entry.607504945" id="jusho" size="30" required>
+	    <br><small>番地（建物名・部屋番号）も忘れずにお願いします。</small>
+	      <br>宛名<br><input type="text" name="entry.1066054184" id="atena" required>
+	    <h3>チラシの枚数</h3>
+	    <input type="text" name="entry.1508545114" id="maisuu" required> 枚
+	    <br>ざっくりで大丈夫です。（目安35枚〜）<br>適宜調整させていただきます。
+	    <br>入力内容を確認したら、送信ボタンを押してください。
+	    <br><button class="form-btn" type="submit" name="submit" value="送信">送 信</button>
+	</form>
 </div>
 
 <script>
@@ -61,13 +52,19 @@
       document.getElementById( "check" ).innerHTML = '';
     }
   }
-
 </script>
-		<iframe
-		name="hidden_iframe"
-		id="hidden_iframe"
-		style="display: none"
-		onload="if(submitted){window.location='https://kamotan1.github.io/NAD/202601after-form.html';}"></iframe>
-		
+
+<iframe
+name="hidden_iframe"
+id="hidden_iframe"
+style="display: none"
+onload="if(submitted){window.location='https://kamotan1.github.io/NAD/202601after-form.html';}"></iframe>
+
+<!-- 送信後 after_form.htmlへ移動 -->
+<script type="text/javascript">
+    let submitted = false;
+</script>
+<!-- 送信後 after_form.htmlへ移動 ここまで -->
+
 </body>
 </html>
